@@ -1,0 +1,8 @@
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+
+print("\nResults of logical operations:")
+print(f"({num1} > {num2}) and ({num2} > {num3}) : {(num1 > num2) and (num2 > num3)}")
+print(f"({num1} > {num2}) or ({num2} > {num3})  : {(num1 > num2) or (num2 > num3)}")
+print(f"not({num1} > {num2}) : {not(num1 > num2)}")
